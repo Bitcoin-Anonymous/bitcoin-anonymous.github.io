@@ -152,6 +152,8 @@ header.masthead .masthead-content .masthead-subheading {
 .display-4 { font-size: 2.2rem; }
 .p-5 { padding: 3rem 1rem !important; }
 header.masthead { padding-top: 7rem; }
-
+.logo-link-col { width: 100%; }
+.logo-links-row img  { width: 100%; }
+.logo-links-row { display: block; padding-top:0 !important; }
 }
 
