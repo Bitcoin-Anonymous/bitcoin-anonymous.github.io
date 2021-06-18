@@ -42,7 +42,7 @@ h1 span { font-weight: 700 !important; }
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(250, 203, 42, 0.7);
+  background-color: rgba(240, 185, 11, 0.7);
 }
 
 .navbar-custom .navbar-brand {
@@ -64,16 +64,17 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background-image: url("../img/header.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
+  background-color: #f0b90b;
 }
 
 header.masthead .masthead-content {
   z-index: 1;
   position: relative;
+  background-color: #f0b90b;
 }
 
 header.masthead .masthead-content .masthead-heading {
@@ -89,8 +90,8 @@ header.masthead .masthead-content .masthead-subheading {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(10rem + 55px);
-    padding-bottom: 10rem;
+    padding-top: calc(3rem + 55px);
+    padding-bottom: 4rem;
   }
   header.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
@@ -105,8 +106,8 @@ header.masthead .masthead-content .masthead-subheading {
 }
 
 .btn-primary {
-  background-color: #f0b90b;
-  border-color: #f0b90b;
+  background-color: #f0c44b;
+  border-color: #f0c44b;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -115,7 +116,7 @@ header.masthead .masthead-content .masthead-subheading {
 }
 
 .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(240, 185, 11, 0.5);
 }
 
 .btn-secondary {
@@ -129,17 +130,44 @@ header.masthead .masthead-content .masthead-subheading {
 }
 
 .btn-secondary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(240, 185, 11, 0.5);
 }
 
+#contract-address { float:left;}
+.clippy {
+  display: inline-block;
 
-.logo-links-row img { max-width: 100%; }
+  margin-left: 6px;
+  width: 14px;
+  height: 18px;
+  padding: 0px;
 
-.logo-link-col { width: 20%; padding: 20px 40px; }
+  cursor: pointer;
+}
+.clippy:hover {
+  filter: invert(49%) sepia(50%) saturate(5518%) hue-rotate(165deg) brightness(100%) contrast(107%);
+  background-size: 18px;
+  background-position: center;
+}
 
-.social-icons a img { width: 40px; }
-.social-icons a  {  opacity: .8; transition: .4s; margin: .5rem;}
-.social-icons a:hover  {  opacity: 1;}
+.copy-link img  { height:15px; margin-left: 8px; transition: .4s;  cursor: pointer; }
+.copy-link:hover { opacity: .6; }
+#contract_add { background-color: #ffffff61; padding: 5px 10px; border:none; max-width: 100%; }
+
+
+
+.logo-links-row a img { max-width: 100%; width:250px; }
+.logo-links-row .logo-link-col { text-align: center;     margin: 20px 0;}
+
+
+footer { margin-top: 4em; }
+
+.social-icons a img{max-width:48px; margin:0 .8em;}
+.social-icons a:hover { opacity: .8; transition: .4s; }
+
+ .contract-address { color: #212529; background-color: #fff;     padding: 5px 10px; font-weight: 500; max-width: 100%; display: block; word-break: break-all; }
+
+
 
 @media (min-width: 768px) and (max-width: 1200px) {
 .display-4 { font-size: 2.8rem; }
@@ -152,8 +180,8 @@ header.masthead .masthead-content .masthead-subheading {
 .display-4 { font-size: 2.2rem; }
 .p-5 { padding: 3rem 1rem !important; }
 header.masthead { padding-top: 7rem; }
-.logo-link-col { width: 100%; }
-.logo-links-row img  { width: 100%; }
-.logo-links-row { display: block; padding-top:0 !important; }
+#contract_add { font-size: .8rem; }
+.logo-link-col { min-width: 100%; }
+
 }
 
