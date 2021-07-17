@@ -193,6 +193,7 @@ footer { margin-top: 4em; }
 header.masthead { padding-top: 7rem; }
 #contract_add { font-size: .8rem; }
 .logo-link-col { min-width: 100%; }
-
+  #logo-section .logo-links-row { padding-bottom:0 !important; } 
+  #logo-section .logo-links-row .col-sm-12 { padding-bottom:1rem; }
 }
 
