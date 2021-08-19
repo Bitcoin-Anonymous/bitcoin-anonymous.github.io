@@ -103,22 +103,30 @@ header.masthead .masthead-content .masthead-subheading {
 
 .bg-primary {
   background-color: #f0b90b !important;
+
 }
 
-.btn-primary {
+body .btn-primary {
   background-color: #f0c44b;
   border-color: #f0c44b;
+  color: #302f2f;
 }
 
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+body .btn-primary:active, body .btn-primary:focus, body .btn-primary:hover {
   background-color: #f7c422 !important;
   border-color: #f7c422 !important;
+  color: #302f2f;
 }
 
 .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 185, 11, 0.5);
 }
-
+.btn-primary.disabled, .btn-primary:disabled {
+  background-color: #dad4c0;
+  border-color: #dad4c0;
+  color: #302f2f;
+  opacity: .5;
+}
 .btn-secondary {
   background-color: #f0b90b;
   border-color: #f0b90b;
@@ -196,4 +204,3 @@ header.masthead { padding-top: 7rem; }
   #logo-section .logo-links-row { padding-bottom:0 !important; } 
   #logo-section .logo-links-row .col-sm-12 { padding-bottom:2rem; }
 }
-
