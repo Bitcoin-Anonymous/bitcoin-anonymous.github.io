@@ -166,7 +166,7 @@ body .btn-primary:active, body .btn-primary:focus, body .btn-primary:hover {
 
 .logo-links-row a img { max-width: 100%; width:250px; }
 .logo-links-row .logo-link-col { text-align: center;     margin: 20px 0;}
-
+.logo-col { justify-content: center; }
 
 footer { margin-top: 4em; }
 
